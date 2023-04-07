@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import useLocalStorage from '../components/useLocalStorage.jsx';
 
 export const FavContext = React.createContext([]);
