@@ -1,11 +1,10 @@
 import React, {  useState, useEffect, useContext } from "react";
-import { Link } from "react-router-dom";
 import { FavContext } from "../contexts/FavContext";
 import "../assets/css/users.css";
 import { FcLike, FcDislike } from "react-icons/fc";
 
 const Items = () => {
-  const { favourites, toggleFavourite } = useContext(FavContext);
+  const { toggleFavourite } = useContext(FavContext);
   const [items, setItems] = useState([]);
 
   useEffect(() => {
