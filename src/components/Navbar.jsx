@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <>
       <div className="endpoints">
-      <div className="nav-component"><Link to="/">Home</Link></div>
+      <div className="nav-component"><Link to="/">Users</Link></div>
       <div className="nav-component"><Link to="/favs">Fav</Link></div>
       </div>
     </>
