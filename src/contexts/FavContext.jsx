@@ -1,5 +1,5 @@
 import useLocalStorage from '../components/useLocalStorage.jsx';
-
+import React from 'react';
 export const FavContext = React.createContext([]);
 
 const FavProvider = ({ children }) => {
