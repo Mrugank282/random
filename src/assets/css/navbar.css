@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.endpoints{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+.nav-component > a{
+    padding: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
